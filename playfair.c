@@ -294,8 +294,8 @@ char* Decipher(char* input, char* key)
 
 int main()
 {
-    char* cifrat = Encipher("Test","DENIS");
-    char* descifrat = Decipher(cifrat,"DENIS");
+    char* cifrat = Encipher("Test","ISABELA");
+    char* descifrat = Decipher(cifrat,"ISABELA");
     printf("%s \n", cifrat);
     printf("%s \n", descifrat);
     return 0;
